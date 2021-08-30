@@ -4,11 +4,6 @@
 ![Flask](https://img.shields.io/badge/Flask-v1.1.2-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Flask-Assets](https://img.shields.io/badge/Flask--Assets-v2.0-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square&colorA=4c566a&colorB=a3be8c&logo=GitHub)
-[![GitHub Issues](https://img.shields.io/github/issues/hackersandslackers/flask-blueprint-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/flask-blueprint-tutorial/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/hackersandslackers/flask-blueprint-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/flask-blueprint-tutorial/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/hackersandslackers/flask-blueprint-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/flask-blueprint-tutorial/network)
-
-
 # Getting Started
 
 Flask Blueprint code to find the distance from the Moscow Ring Road to a specified address
