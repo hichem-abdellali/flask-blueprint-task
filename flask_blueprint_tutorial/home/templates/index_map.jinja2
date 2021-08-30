@@ -1,0 +1,73 @@
+{% extends "layout.jinja2" %}
+
+{% block pagestyles %}
+  {% assets "home_style_bundle" %}
+    <link href="{{ ASSET_URL }}" rel="stylesheet" type="text/css">
+        <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU&amp;apikey=731f1157-6dd5-411f-8f97-02ff60e4c11a" type="text/javascript"></script>
+        <script
+           src="{{ url_for('static', filename='dist/js/map_yandex.js') }}">
+        </script>
+        <script type="text/javascript" src="https://yandex.st/jquery/2.2.3/jquery.js"></script>
+
+
+{% if geo_pose is defined %}
+    <script>
+      var myGeocode = ['{{ geo_pose[0] }}', '{{ geo_pose[1] }}'];
+      var myAddress = '{{ address }}';
+    </script>
+{% endif %}
+
+
+  {% endassets %}
+{% endblock %}
+
+{% block content %}
+
+
+
+  {% include "navigation.jinja2" %}
+  {% include "notification.jinja2" %}
+
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <h2>{{ subtitle }}</h2>
+
+
+  <div class="form-wrapper">
+                <div class="form-wrapper">
+                  <form method="POST" action="{{ url_for('home_bp.http') }}">
+                {{ form.hidden_tag() }}
+                  <fieldset class="form-field">
+                  {{ form.address_form }}
+                  </fieldset>
+
+
+                      {{ form.submit }}
+
+                  </form>
+                </div>
+
+
+  </div>
+
+
+    <div id="map"></div>
+
+
+  </div>
+
+<div class="blueprint-info">
+
+{% if geo_pose is defined %}
+    <h3>Information about the search</h3>
+    <ul class="page-properties">
+      <li><span class="attribute-title">Address typed:</span> <span class="attribute-value">{{ address }}</span></li>
+      <li><span class="attribute-title">Point:</span> <span class="attribute-value">{{ geo_pose[1] }}, {{ geo_pose[0] }}</span></li>
+      <li><span class="attribute-title"> The distance in km :</span> <span id="km-value" class="attribute-value">0</span></li>
+    </ul>
+
+{% endif %}
+  </div>
+
+
+{% endblock %}

@@ -1,0 +1,317 @@
+.home-template.page .products {
+  display: none !important;
+}
+.home-template .container .resource-links {
+  margin-top: 10px;
+}
+.home-template .container .resource-links .resource-link {
+  margin: 4px 0;
+  color: #8a91a7;
+  line-height: 1;
+}
+.home-template .container  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.home-template .container {
+  padding: 2%;
+  box-shadow: 0 0 5px rgba(65, 67, 144, 0.15);
+  max-width: 28%;
+  width: 30%;
+  background: white;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  transition: all 0.2s ease-out;
+}
+.home-template .container {
+  background: #5dbad7;
+  color: white !important;
+  opacity: 1;
+}
+.home-template .container * {
+  color: white !important;
+}
+.home-template .container {
+  height: 110px;
+  margin: 0 auto 20px;
+  display: block;
+}
+@media (max-width: 600px) {
+  .home-template .container  {
+    width: 90%;
+    height: unset;
+  }
+}
+.home-template .container {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 0.9em;
+  height: 42px;
+}
+.home-template .container {
+  color: #5f6988;
+  margin-top: 5px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.home-template h2 {
+  margin-bottom: 0 !important;
+}
+
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+
+input#address_form{
+    width: 100%;
+    font-size: 25px;
+
+}
+
+
+#submit {
+	background-color:#44c767;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	margin-top:10px;
+	margin-bottom:10px;
+    height: 30px;
+    width: 200px;
+
+}
+#submit:hover {
+	background-color:#5cbf2a;
+}
+#submit:active {
+	position:relative;
+	top:1px;
+}
+
+/**
+ * ----------------------------------------
+ * Notification bar
+ * ----------------------------------------
+ */
+
+.alert>.start-icon {
+    margin-right: 0;
+    min-width: 20px;
+    text-align: center;
+}
+
+.alert>.start-icon {
+    margin-right: 5px;
+}
+
+.greencross
+{
+  font-size:18px;
+      color: #25ff0b;
+    text-shadow: none;
+}
+
+.alert-simple.alert-success
+{
+  border: 1px solid rgba(36, 241, 6, 0.46);
+    background-color: rgba(7, 149, 66, 0.12156862745098039);
+    box-shadow: 0px 0px 2px #259c08;
+    color: #0ad406;
+  text-shadow: 2px 1px #00040a;
+  transition:0.5s;
+  cursor:pointer;
+}
+.alert-success:hover{
+  background-color: rgba(7, 149, 66, 0.35);
+  transition:0.5s;
+}
+.alert-simple.alert-info
+{
+  border: 1px solid rgba(6, 44, 241, 0.46);
+    background-color: rgba(7, 73, 149, 0.12156862745098039);
+    box-shadow: 0px 0px 2px #0396ff;
+    color: #0396ff;
+  text-shadow: 2px 1px #00040a;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+.alert-info:hover
+{
+  background-color: rgba(7, 73, 149, 0.35);
+  transition:0.5s;
+}
+
+.blue-cross
+{
+  font-size: 18px;
+    color: #0bd2ff;
+    text-shadow: none;
+}
+
+.alert-simple.alert-warning
+{
+      border: 1px solid rgba(241, 142, 6, 0.81);
+    background-color: rgba(220, 128, 1, 0.16);
+    box-shadow: 0px 0px 2px #ffb103;
+    color: #ffb103;
+    text-shadow: 2px 1px #00040a;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+.alert-warning:hover{
+  background-color: rgba(220, 128, 1, 0.33);
+  transition:0.5s;
+}
+
+.warning
+{
+      font-size: 18px;
+    color: #ffb40b;
+    text-shadow: none;
+}
+
+.alert-simple.alert-danger
+{
+  border: 1px solid rgba(241, 6, 6, 0.81);
+    background-color: rgba(220, 17, 1, 0.16);
+    box-shadow: 0px 0px 2px #ff0303;
+    color: #ff0303;
+    text-shadow: 2px 1px #00040a;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+.alert-danger:hover
+{
+     background-color: rgba(220, 17, 1, 0.33);
+  transition:0.5s;
+}
+
+.danger
+{
+      font-size: 18px;
+    color: #ff0303;
+    text-shadow: none;
+}
+
+.alert-simple.alert-primary
+{
+  border: 1px solid rgba(6, 241, 226, 0.81);
+    background-color: rgba(1, 204, 220, 0.16);
+    box-shadow: 0px 0px 2px #03fff5;
+    color: #03d0ff;
+    text-shadow: 2px 1px #00040a;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+.alert-primary:hover{
+  background-color: rgba(1, 204, 220, 0.33);
+   transition:0.5s;
+}
+
+.alertprimary
+{
+      font-size: 18px;
+    color: #03d0ff;
+    text-shadow: none;
+}
+
+.square_box {
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top-left-radius: 45px;
+    opacity: 0.302;
+}
+
+.square_box.box_three {
+    background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    opacity: 0.059;
+    left: -80px;
+    top: -60px;
+    width: 500px;
+    height: 500px;
+    border-radius: 45px;
+}
+
+.square_box.box_four {
+    background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    opacity: 0.059;
+    left: 150px;
+    top: -25px;
+    width: 550px;
+    height: 550px;
+    border-radius: 45px;
+}
+
+.alert:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: calc(100% - 44px);
+    border-left: 1px solid;
+    border-right: 2px solid;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+      height: 20px;
+}
+
+.fa-times
+{
+-webkit-animation: blink-1 2s infinite both;
+	        animation: blink-1 2s infinite both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation blink-1
+ * ----------------------------------------
+ */
+@-webkit-keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
