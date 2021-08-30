@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-v3.9.6-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
 ![Flask](https://img.shields.io/badge/Flask-v1.1.2-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Flask-Assets](https://img.shields.io/badge/Flask--Assets-v2.0-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square&colorA=4c566a&colorB=a3be8c&logo=GitHub)
 # Getting Started
 
 Flask Blueprint code to find the distance from the Moscow Ring Road to a specified address
@@ -48,3 +47,27 @@ The code was experimented on Windows10 with Python 3.9.6 using Pycharm 2020.2
 
 **Thanks to Hackers and Slackers for their tutorials ![Flask Blueprint Tutorial]**
 the core of the solution is inspired from their github https://github.com/hackersandslackers/flask-blueprint-tutorial/
+
+# Demo
+
+running the application brings you here, to obtain the results, do ::
+
+* 1 - type a correct address.
+* 2 - click on the calculate button
+* 3 - results will be displayed on the map and on the bottom part of the page (the blue region is the MKAD, the red pin is the localisation of the address typed and, the blue one is the cloosest corner of the MKAD with the inpput address).
+
+![image](./doc/good.png?raw=true)
+
+
+* 4 - if the location is inside the MKAD it will display this message in the bottom,
+
+![image](./doc/inside.png?raw=true)
+
+
+if the user type something bad or not meaningful for the Yandex Geocoder API , it will shows a problem message in the top
+* 1 - type a bad address.
+* 2 - click on the calculate button
+* 3 - an error message will be displayed on the top to check the input data
+
+![image](./doc/bad.png?raw=true)
+
