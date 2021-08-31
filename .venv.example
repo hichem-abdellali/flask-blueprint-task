@@ -1,0 +1,8 @@
+FLASK_APP=wsgi.py
+FLASK_ENV=development
+SECRET_KEY=randomstringofcharacters
+LESS_BIN=C:\\Users\\hichem\\AppData\\Roaming\\npm\\lessc.cmd
+ASSETS_DEBUG=True
+LESS_RUN_IN_DEBUG=True
+COMPRESSOR_DEBUG=True
+API_KEY=0000000
