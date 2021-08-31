@@ -29,7 +29,7 @@ Replace the values in **.env** :
 to deploy the server run these commands(dependencies version might differ from operating system):
 
 ```shell
-$ git clone https://github.com/hackersandslackers/flask-blueprint-tutorial.git
+$ git clone https://github.com/djidan10/flask-blueprint-task.git
 $ cd flask-blueprint-tutorial
 $ python3 -m venv .venv
 $ venv\Scripts\activate
